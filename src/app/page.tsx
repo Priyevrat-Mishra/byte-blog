@@ -18,7 +18,8 @@ export default function Home() {
         </h1>
 
         <div className="py-12 lg:py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+          <div 
+            className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             {/* image */}
             <div className="reative">
               <Image
@@ -29,7 +30,6 @@ export default function Home() {
 
               {/* glow */}
               <div className="absolute -inset-4 bg-indigo-500/10 blur-3xl -z-10">
-
               </div>
 
             </div>
